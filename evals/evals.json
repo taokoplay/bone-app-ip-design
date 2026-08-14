@@ -1,0 +1,206 @@
+{
+  "skill_name": "bone-app-ip-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我做了一个帮助自由职业者记录工时和收款的 iOS App，主色是蓝紫色，想设计一个能放在首页的 IP 角色，让产品年轻一点。直接帮我开始设计。",
+      "expected_output": "基于产品事实建立 Brief，选择母体并给出三个联想距离不同的原创方向，而不是直接生成通用可爱动物。",
+      "files": [],
+      "expectations": [
+        "输出精简 App IP Brief，并明确角色任务、出现位置、真实尺寸和已有假设",
+        "保留无新增 IP 或非 Character 作为可比较基线，而不是默认动物角色",
+        "给出直译型、隐喻型、系统或反常识型三个策略不同的方向",
+        "每个方向说明主识别机制、产品关联、小尺寸预判和误读或原创风险",
+        "没有声称尚未实际执行的小尺寸或 UI 联调已经通过"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "这是我的冥想 App 吉祥物，基础角色已经确认。现在帮我设计完成、等待、断签、网络错误和加载状态，再给三套付费皮肤。",
+      "expected_output": "锁定既有母版，区分用户结果和系统执行状态，再按成本级别设计不破坏核心反馈的换装。",
+      "files": [],
+      "expectations": [
+        "不重做已确认角色母题，先声明需要锁定的身份不变量",
+        "把断签或 missed 与网络 error 分开，并明确不同责任主体",
+        "网络错误不以责备或暗示用户失败的情绪表达",
+        "每个状态包含用户下一步、IP 表达和 UI 或文案职责",
+        "三套皮肤标记 Tier A、B 或 C，并说明身份锚点和骨架成本",
+        "付费皮肤不破坏免费用户获得核心状态反馈"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "给我的开发者工具 App 做个潮玩角色，品牌色全部刷满角色，要像某著名盲盒角色但换成绿色。",
+      "expected_output": "拒绝复制具体 IP 组合，挑战不合理品牌色要求，并提供原创、适合严肃工具的替代路线。",
+      "files": [],
+      "expectations": [
+        "拒绝只改颜色复制著名角色的整体印象或独特结构组合",
+        "提供可执行的原创性检索和低中高风险判断",
+        "挑战品牌色涂满主体，改为颜色职责",
+        "至少提出一个非潮玩或非 Character 母体的替代方向",
+        "未把快速筛查描述成法律结论"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "设计一个奶茶店线下门店吉祥物，主要做玩偶和包装，不会放进 App。",
+      "expected_output": "识别为非 App 主载体任务并路由到 character-ip-design。",
+      "files": [],
+      "expectations": [
+        "明确说明本任务不应执行 App 状态、Icon 和 UI 产品化全流程",
+        "路由到 character-ip-design 或通用商业角色流程",
+        "没有强行输出 App IP Brief、业务状态和技术资产"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "我们的习惯打卡 App 已经有确认过的狐狸角色。请给它设计 App Icon 和 6 张 App Store 商店图，想要可爱又显眼。",
+      "expected_output": "保持角色身份，分别完成 Icon 策略和 caption-first 商店图叙事。",
+      "files": [],
+      "expectations": [
+        "先列出狐狸角色的 Identity Lock 和 Visual DNA，不重新设计已确认身份",
+        "提出品类直读、品牌反转和 IP 世界观三个 Icon 策略",
+        "把代表尺寸 QA 与正式上传规格区分开",
+        "六张商店图每张只有一个主要销售任务",
+        "前三张覆盖利益、差异和可核验证据或证明",
+        "每次角色出现都有明确产品职责，而不是角落贴纸",
+        "没有虚构奖项、用户量或媒体背书"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "给我的极简记账 App 设计图标，不要脸，也不要吉祥物；也帮我规划前三张商店图。",
+      "expected_output": "使用 Object、Abstract/System 或 Typographic 母体，跳过角色专用阶段。",
+      "files": [],
+      "expectations": [
+        "没有要求眼鼻嘴、人格、裸模、服装或角色骨架",
+        "比较 Object、Abstract/System 或 Typographic/Attitude 方向",
+        "输出核心身份 DNA 与表现 DNA",
+        "前三张分别承担主利益、差异和可信证明任务",
+        "明确 UI 是产品证据层",
+        "不擅自添加吉祥物"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "只帮我优化一个没有角色、没有品牌 IP 的 SaaS App Store 截图文案，别做吉祥物。",
+      "expected_output": "识别为纯 ASO/截图文案近邻任务，不加载完整 App IP 流程。",
+      "files": [],
+      "expectations": [
+        "明确本 Skill 不适用或只提供路由",
+        "不创建角色、母体、状态或换装",
+        "路由到普通 ASO 或商店文案流程"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "给我们成熟的 B2B 日志监控工具做一个品牌形象系统，但不要脸、不要动物、不要拟人，只想让加载、告警和恢复状态更有识别度。",
+      "expected_output": "选择 Abstract/System 或 Object 母体，以形状、空间、节奏表达系统状态。",
+      "files": [],
+      "expectations": [
+        "选择 Abstract/System 或 Object，而非 Character",
+        "定义形状或运动语法和一个主识别机制",
+        "分别表达 loading、warning、error 和 recovery，并明确系统责任",
+        "包含 reduced motion 和非颜色编码",
+        "跳过脸、肢体、服装和人格关键词"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "这个角色是一颗住在透明宇航服里的小种子，脱掉宇航服就完全没有轮廓特色。按你的流程是不是要先画无服装裸模？",
+      "expected_output": "识别宇航服可能是结构性身份组件，而不是必须移除的装饰。",
+      "files": [],
+      "expectations": [
+        "区分装饰性配件、结构性身份组件和功能性道具",
+        "允许把宇航服写入基础母版不变量",
+        "仍验证最小身份锚点和遮挡规则",
+        "没有机械要求删除宇航服后才能继续"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "我们要适配 iOS、iPadOS 和 macOS，手上已经有一个 1024 PNG。请直接把它当最终 Icon，统一去掉透明度，再生成深色和着色版。",
+      "expected_output": "不机械采用统一 PNG/Alpha 规则，先判断工具链并拆分源资产层级。",
+      "files": [],
+      "expectations": [
+        "区分 Canonical artwork master、Icon Composer source 和 flattened compatibility export",
+        "没有把无 Alpha 写成所有平台的统一硬要求",
+        "要求核验当前 HIG、Icon Composer、Xcode 和目标平台",
+        "说明代表尺寸 QA 不是上传尺寸清单",
+        "平台规范未实际核验时标记待官方核验，且不得填写虚假的 checked_at 日期"
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "做一个 30 秒 App Preview，前 20 秒播放吉祥物世界观动画，最后 10 秒快速闪过 App；其中 AI 分析只有订阅用户能用，但别写付费。",
+      "expected_output": "挑战误导性 Preview，要求真实 App footage 为主体并披露订阅门槛。",
+      "files": [],
+      "expectations": [
+        "拒绝让角色世界观动画替代主要 App 体验",
+        "要求目标设备真实 App footage 为主体",
+        "拒绝隐藏订阅门槛，并给出披露字段或位置",
+        "区分首帧和 poster frame",
+        "检查 AI 能力是否真实存在于当前版本",
+        "静音观看仍可理解"
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "App 同时支持 iPhone 和 iPad。日语商店页先只翻译截图标题，Preview 沿用英文，UI 里面还是中文；iPad 就用 iPhone 截图拉伸一下。",
+      "expected_output": "建立逐设备和 Locale 的提交矩阵，拒绝拉伸与半本地化。",
+      "files": [],
+      "expectations": [
+        "拒绝将 iPhone 截图拉伸为 iPad 资产",
+        "要求目标设备 UI 与平台匹配",
+        "指出日语标题、英文 Preview、中文 UI 的语言错配",
+        "记录 Preview fallback 是否允许及人工检查结果",
+        "建立 Platform、Device、Locale、Orientation 和 Review status 矩阵"
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "截图第三张写‘超过 100 万用户’和‘医生一致推荐’，虽然还没正式统计。顺便这次 PPO 把 Icon、前三张、标题和角色配色一起换掉，看转化会不会涨。",
+      "expected_output": "拒绝虚假声明，并将实验重构为可归因的单一假设。",
+      "files": [],
+      "expectations": [
+        "拒绝使用无法核验的用户量和医生推荐",
+        "要求 Claim evidence source、date、locale 和 recheck",
+        "提供不虚构的替代证明方向",
+        "指出同时改多个变量无法归因",
+        "把 PPO 重构为单一假设并定义指标、样本或停止条件"
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "除了角色和截图，也帮我优化英文、日文的 App 名称、副标题、关键词字段，并为三个广告人群做 CPP。",
+      "expected_output": "使用 ASO Intent Card 对接专业 ASO 流程，并保持 CPP 素材、意图和落点一致。",
+      "files": [],
+      "expectations": [
+        "明确本 Skill 不替代完整关键词和 metadata 优化流程",
+        "输出或要求 ASO Intent Card",
+        "路由专业 ASO 工作流处理名称、副标题和关键词",
+        "为 CPP 记录人群、搜索或广告意图和 deep link",
+        "要求截图承诺与 App 内落点一致"
+      ]
+    },
+    {
+      "id": 15,
+      "prompt": "角色母版在附件里，产品 Brief 和业务状态表也一起给你了。请直接基于这些合成测试资料做首页完成、离线和系统错误状态，不要重新问已经写过的信息。",
+      "expected_output": "读取通用合成 fixture 中的既有事实，锁定母版并映射真实业务状态；不得把测试数据当作任何真实项目事实。",
+      "files": [
+        "evals/fixtures/sample-app-brief.md",
+        "evals/fixtures/sample-state-spec.json",
+        "evals/fixtures/sample-character-master.svg"
+      ],
+      "expectations": [
+        "引用 Brief 中的产品、用户、品牌色和首页尺寸事实",
+        "引用状态表中的真实状态名和责任主体",
+        "不重复询问 fixture 已提供的信息",
+        "保持 SVG 母版中的轨道圆环、偏移轨道、菱形信标核心和强调节点，不擅自重设计",
+        "完成、离线和系统错误有不同表达与用户下一步",
+        "明确 fixture 是合成测试数据，不把它归因于任何真实项目或用户",
+        "附件未进行真实视觉联调时标记基于输入推断或待工具执行"
+      ]
+    }
+  ]
+}

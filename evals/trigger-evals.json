@@ -1,0 +1,27 @@
+[
+  {"query":"我在做一个服药提醒 iOS App，想设计一个会在完成、漏服、同步失败时给反馈的陪伴角色，还要能放进首页 64pt 卡片。","should_trigger":true},
+  {"query":"我们已有一只水獭吉祥物，请把它产品化进记账 App：空状态、完成动画、深色模式、Widget 和角色型 Icon。","should_trigger":true},
+  {"query":"给我的习惯打卡应用做一个原创桌宠，不要只画立绘，要考虑状态、骨架、换装和 UI 遮挡。","should_trigger":true},
+  {"query":"这个健康 App 不想要动物，能否用一个人格化药盒或抽象节奏系统做品牌 IP，并延展到图标？","should_trigger":true},
+  {"query":"帮我设计 App 里的陪伴形象，用户完成目标时庆祝，失败时不要责备，还要规划 App Store 角色商店图。","should_trigger":true},
+  {"query":"我们确认了基础狐狸角色，现在只需要做 loading、offline、error、milestone 四个业务状态和三套皮肤。","should_trigger":true},
+  {"query":"给儿童阅读 App 做一个导航吉祥物，需要首页、空状态、引导页、Icon、小尺寸和 reduced motion 方案。","should_trigger":true},
+  {"query":"想让这个效率 App 更有记忆点，请先判断该用角色、核心物件还是抽象系统，不要默认可爱动物。","should_trigger":true},
+  {"query":"设计一套 App × IP 视觉 DNA，让角色、按钮、Icon、深浅模式和商店截图属于同一品牌。","should_trigger":true},
+  {"query":"把现有品牌角色接入我的天气 App，设计晴雨状态、动效规则、VoiceOver 和技术资产交接。","should_trigger":true},
+  {"query":"我们 App 的 IP 角色已经定稿，请为它规划 6 张 App Store 截图和 Preview，角色必须参与真实功能。","should_trigger":true},
+  {"query":"帮我的应用设计一个形象吧，代码仓库里有首页和状态枚举，你先读产品再提方向。","should_trigger":true},
+
+  {"query":"把我的记账 App Design System 重做一下：颜色、字号、间距、圆角和组件 token，不需要角色或 IP。","should_trigger":false},
+  {"query":"重画这个 iOS App Icon，保持几何 Logo，不要吉祥物，也不需要品牌角色系统。","should_trigger":false},
+  {"query":"帮我优化英文 App Store 的副标题、关键词字段和截图文案，产品没有角色或品牌 IP。","should_trigger":false},
+  {"query":"为 onboarding 做三张扁平插画，人物只出现一次，不需要持续角色设定和状态系统。","should_trigger":false},
+  {"query":"设计一个游戏里的宠物 NPC，要有技能、战斗数值、升级树和剧情任务。","should_trigger":false},
+  {"query":"做一套用户可捏脸的 avatar 编辑器，包括发型、五官和服装参数。","should_trigger":false},
+  {"query":"给线下奶茶品牌做吉祥物，主要用于玩偶、包装、门店和联名授权，App 不是主要载体。","should_trigger":false},
+  {"query":"把已有动漫 IP 授权形象放到活动页 Banner 里，不改角色，也不需要 App 状态。","should_trigger":false},
+  {"query":"帮我审查这个 SwiftUI 页面为什么深色模式对比度不够，没有任何角色设计需求。","should_trigger":false},
+  {"query":"做一个普通 SaaS 商店截图模板：顶部标题、设备 Mockup、三种配色，不涉及 IP。","should_trigger":false},
+  {"query":"为企业官网设计品牌语气、Logo 和视觉识别手册，不是移动 App。","should_trigger":false},
+  {"query":"帮我写 App Preview 的英文旁白和字幕，视觉与角色已经由别的团队完全定稿。","should_trigger":false}
+]

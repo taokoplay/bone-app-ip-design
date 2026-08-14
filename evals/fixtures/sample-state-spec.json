@@ -1,0 +1,26 @@
+{
+  "fixture_notice": "Synthetic eval data only; not based on any real project or user.",
+  "states": [
+    {
+      "id": "completed",
+      "category": "user_result",
+      "responsibility": "user",
+      "next_action": "none",
+      "meaning": "the current focus session was completed and logged locally"
+    },
+    {
+      "id": "offline",
+      "category": "system_execution",
+      "responsibility": "network",
+      "next_action": "continue locally; sync later",
+      "meaning": "the app has no network but local focus tracking remains available"
+    },
+    {
+      "id": "sync_error",
+      "category": "system_execution",
+      "responsibility": "system",
+      "next_action": "retry sync",
+      "meaning": "the local session exists but remote synchronization failed"
+    }
+  ]
+}
