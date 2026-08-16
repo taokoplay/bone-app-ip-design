@@ -4,7 +4,7 @@
 
 `bone-app-ip-design` 是一个面向 AI Agent 的设计 Skill，用于从产品、界面与代码出发，创建、接入或扩展可持续出现的 App 品牌形象。它覆盖角色定位、母体选择、状态反馈、UI 联调、App Icon、Widget、商店素材和生产交接，并通过阶段门槛避免在身份尚未稳定时过早批量生产资产。
 
-当前版本：**1.3.0**
+当前版本：**1.4.0**
 
 ## 适用场景
 
@@ -14,6 +14,8 @@
 - 规划换装、主题皮肤与可复用生产骨架
 - 建立统一的 App × IP 视觉语言
 - 设计带有 IP 身份的 App Icon、Widget 和商店素材
+- 根据 App 内容、品牌人格、UI、小尺寸风险和货架差异，从 11 类风格中选择主风格与对照风格
+- 用结构化 Prompt 锁定图标的产品关联、单一构图、媒介、配色职责、小尺寸识别与负约束
 - 检查小尺寸识别、深浅模式、reduced motion 与 VoiceOver 适配
 
 ## 不适用场景
@@ -106,6 +108,7 @@ bone-app-ip-design/
 ├── references/
 │   ├── ai-image-iteration.md        # AI 生图、身份锁与版本回退
 │   ├── app-icon-system.md           # App Icon 与代表尺寸 QA
+│   ├── icon-style-presets.md        # 风格选择与 Prompt 增强预设
 │   ├── before-click-patterns.md     # 案例证据与常见反例
 │   ├── character-productization.md  # 母体、母版、状态与换装
 │   ├── deliverable-templates.md     # Brief、矩阵与交付模板

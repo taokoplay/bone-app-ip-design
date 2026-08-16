@@ -2,7 +2,7 @@
 name: bone-app-ip-design
 description: >-
   凡用户希望在 App 中创建、接入或扩展一个可持续出现的品牌形象，优先使用本 Skill。包括从产品与代码出发设计角色/吉祥物/陪伴形象/桌宠/人格化物件/抽象 IP，将已有 IP 产品化，或建立统一的 App × IP 视觉语言；也包括让形象承担导航、陪伴、品牌识别及完成、失败、空状态、天气、同步等反馈，并适配 UI、深浅模式、小尺寸、动效、换装、reduced motion、VoiceOver、App Icon、Widget、App Store 截图与 Preview。即使用户只说“给应用设计一个形象”“让角色进入真实功能”或仅要求规划已有 IP 的商店资产，也应触发。不用于没有持续 IP 身份的普通 Design System、几何 Icon、纯 ASO 排版、一次性插画、通用头像、游戏 NPC，或以玩具、包装、授权和世界观为核心的线下/泛媒介 IP；后者优先 character-ip-design。
-version: "1.3.0"
+version: "1.4.0"
 ---
 
 # App IP Design
@@ -58,6 +58,7 @@ App IP 不是一张漂亮角色图，而是运行在产品中的**人格化识�
 
 - 母体、基础母版、状态、换装、原创性：[`references/character-productization.md`](references/character-productization.md)
 - App Icon、Visual DNA、Icon Composer 和代表尺寸 QA：[`references/app-icon-system.md`](references/app-icon-system.md)
+- 图标风格选择、跨风格比较与 Prompt 增强块：[`references/icon-style-presets.md`](references/icon-style-presets.md)
 - 商店图、Preview、Locale、claims、PPO/CPP：[`references/store-assets.md`](references/store-assets.md)
 - AI 生图/改图、身份锁和版本回退：[`references/ai-image-iteration.md`](references/ai-image-iteration.md)
 - 用户确认后的技术资产与交接：[`references/production-handoff.md`](references/production-handoff.md)
@@ -140,7 +141,7 @@ App IP 不是一张漂亮角色图，而是运行在产品中的**人格化识�
 
 ## 第九步：Icon、商店图与生产交接
 
-- 涉及 Icon：读取 `app-icon-system.md`。当前平台规则必须核验并记录日期；不要把单张无透明 PNG 当所有平台的统一正式源。
+- 涉及 Icon：先读取 `app-icon-system.md`；需要生成、选择风格或比较同一概念的不同表现时，再读取 `icon-style-presets.md`。根据产品语义、品牌人格、IP 母体、UI 一致性、小尺寸预算和货架差异选择 1 个主风格与最多 1 个对照风格，不把所有风格堆进同一 Prompt。生成 Prompt 必须覆盖资产契约、产品关联、身份锁、单一构图、配色职责、主媒介/表面、背景/空间、小尺寸识别、风格专属负约束与单轮比较变量；当前平台规则必须核验并记录日期，不要把单张无透明 PNG 当所有平台的统一正式源。
 - 涉及商店图/Preview：读取 `store-assets.md`。真实 App footage、当前版本功能、设备匹配、付费/登录披露、poster frame、Locale fallback 和 claims 必须检查。
 - 用户最终确认后：读取 `production-handoff.md`，再制定骨架、图层、导出、命名、版本和 provenance。
 

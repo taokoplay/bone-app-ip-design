@@ -108,6 +108,29 @@
 | B | 品牌反转 | | | | | |
 | C | IP 世界观 | | | | | |
 
+## Style selection
+| Candidate style | Evidence source | Product/brand fit | UI fit | Identity fit | 40–60px risk | Shelf difference | Production risk | Decision |
+|---|---|---|---|---|---|---|---|---|
+| | 笔记已验证 / 系统扩展 | | | | | | | 主 / 对照 / 淘汰 |
+
+- 主风格：
+- 对照风格：
+- 淘汰风格与原因：
+- 本轮唯一比较变量：
+
+## Generation prompt contract
+- Asset / platform：
+- Product association：
+- Identity lock：
+- Single composition / functional prop：
+- Palette roles：
+- Style preset / evidence source：
+- Medium / surface prompt block：
+- Background / depth：
+- Small-size recognition contract：
+- Negative constraints：
+- Output / single comparison variable：
+
 ## Asset layers
 - Canonical artwork master：
 - Icon Composer source：
@@ -206,7 +229,7 @@
 ## 15. 生成与来源记录
 
 ```markdown
-| Version | Status | Prompt | Input | Output | Model / params | Cost | Primary change | User conclusion | Rights / provenance |
-|---|---|---|---|---|---|---|---|---|---|
-| | 探索 / 待用户确认 / 已确认事实源 / 淘汰 | | | | | | | | |
+| Version | Status | Structured prompt | Negative constraints | Input | Output | Model / params | Cost | Primary change | User conclusion | Rights / provenance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| | 探索 / 待用户确认 / 已确认事实源 / 淘汰 | | | | | | | | | |
 ```

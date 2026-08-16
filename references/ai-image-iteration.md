@@ -26,11 +26,16 @@ Asset type / product context
 Identity lock
 Single primary change
 Coupled secondary change, if any
+Composition / crop / functional prop
 Material and palette roles
+Background / depth / light behavior
 Display context and target sizes
+Small-size recognition contract
 Likely misreadings / negative constraints
 Output views, numbering and comparison rule
 ```
+
+对于 App Icon，再补充目标平台、1:1 artwork、系统遮罩预览与 canonical master 的区别。不要把“圆角图标”写成 artwork 内自带圆角方块；系统圆角只在预览与 QA 中模拟。Flat、2.5D、玻璃、纸感等媒介必须择一并写清表面逻辑，负约束只排除相邻误读，不要同时要求互相冲突的风格。详见 `app-icon-system.md` 的图标 Prompt 架构。
 
 ## 3. 失败回退
 

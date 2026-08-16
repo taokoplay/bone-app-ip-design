@@ -21,7 +21,7 @@ text = SKILL.read_text(encoding="utf-8")
 lines = text.splitlines()
 check(text.startswith("---\n"), "SKILL.md must start with YAML frontmatter")
 check('name: bone-app-ip-design' in text, "frontmatter name mismatch")
-check('version: "1.3.0"' in text, "version must be 1.3.0")
+check('version: "1.4.0"' in text, "version must be 1.4.0")
 check(len(lines) <= 330, f"SKILL.md exceeds 330 lines: {len(lines)}")
 check(text.count("```") % 2 == 0, "SKILL.md has unbalanced fenced code blocks")
 
